@@ -6,3 +6,10 @@
 /build
 /captures
 .externalNativeBuild
+build.gradle
+gradle.properties
+app/build/
+gradle/wrapper/
+app/proguard-rules.pro
+gradlew.bat
+gradlew
