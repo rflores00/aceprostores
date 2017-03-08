@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AceproStores</string>
+
+    <string name="label_wait">Cargando..</string>
+    <string name="label_sync">Sincronizando..</string>
+    <string name="label_update_local">Actualizando replica local..</string>
+    <string name="label_downloading">Descargando Archivos.. %1$d/%2$d</string>
+    <string name="label_stock">Stock: %1$d</string>
+
+    <string name="button_offline">Offline</string>
+    <string name="button_online">Online</string>
+
+    <string name="error_sync">Ha ocurrido un error en la sincronización</string>
+    <string name="error_api_general">Ha ocurrido un error, intente mas tarde.</string>
+
+    <string name="conf_api_base_url">http://www.aceprointernacional.com/stores/api/v1/</string>
+    <string name="conf_images_base_url">http://www.aceprointernacional.com/stores/files/images/</string>
+    <string name="title_activity_login">Autenticación</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Este correo no es válido</string>
+    <string name="error_invalid_password">Usuario ó clave incorrectos</string>
+    <string name="error_incorrect_password">Clave incorrecta</string>
+    <string name="error_field_required">Debe llenar este campo</string>
+    <string name="permission_rationale">"Se necesitan permisos para acceder a los contactos"
+    </string>
+
+</resources>

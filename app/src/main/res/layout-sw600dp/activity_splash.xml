@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_marginLeft="@dimen/spacing_huge"
+        android:layout_marginRight="@dimen/spacing_huge"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/acepro_logo"/>
+    <com.adv.aceprostores.helpers.CustomTextView
+        android:id="@+id/textInfo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:textSize="@dimen/font_normal"
+        android:gravity="center"
+        android:textColor="@color/orange"
+        android:text="@string/label_wait"
+        />
+    <com.adv.aceprostores.helpers.CustomTextView
+        android:id="@+id/textInfo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textInfo1"
+        android:visibility="gone"
+        android:textSize="@dimen/font_normal"
+        android:gravity="center"
+        android:textColor="@color/orange"
+        android:text="@string/label_downloading"
+        />
+    <LinearLayout
+        android:id="@+id/linearAnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/spacing_large"
+        android:paddingBottom="70dp"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:animateLayoutChanges="true"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonOffline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_offline"/>
+
+        <Button
+            android:id="@+id/buttonOnline"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/button_online"/>
+    </LinearLayout>
+
+</RelativeLayout>
